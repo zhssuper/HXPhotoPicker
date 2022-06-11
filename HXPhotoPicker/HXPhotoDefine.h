@@ -80,7 +80,7 @@
 
 #define HasYYKitOrWebImage (__has_include(<YYWebImage/YYWebImage.h>) || __has_include("YYWebImage.h") || __has_include(<YYKit/YYKit.h>) || __has_include("YYKit.h"))
 
-#define HasSDWebImage (__has_include(<SDWebImage/UIImageView+WebCache.h>) || __has_include("UIImageView+WebCache.h"))
+#define HasSDWebImage NO
 
 #define HX_ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define HX_ScreenHeight [UIScreen mainScreen].bounds.size.height

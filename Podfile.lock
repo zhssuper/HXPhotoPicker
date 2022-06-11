@@ -43,9 +43,6 @@ PODS:
     - HXPHPicker/Core
   - Kingfisher (7.2.1)
   - Masonry (1.1.0)
-  - SDWebImage (5.12.5):
-    - SDWebImage/Core (= 5.12.5)
-  - SDWebImage/Core (5.12.5)
 
 DEPENDENCIES:
   - AFNetworking
@@ -53,7 +50,6 @@ DEPENDENCIES:
   - GPUImage
   - HXPHPicker
   - Masonry
-  - SDWebImage
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -63,7 +59,6 @@ SPEC REPOS:
     - HXPHPicker
     - Kingfisher
     - Masonry
-    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -72,8 +67,7 @@ SPEC CHECKSUMS:
   HXPHPicker: 6f920091e253f1146d3b9299837d5955db0f7162
   Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
 
-PODFILE CHECKSUM: c395177dfd272f05d236e7ce49b9b37b43ac50c5
+PODFILE CHECKSUM: de244cff643dfafd25f11d518049430b1938c75d
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

@@ -645,6 +645,8 @@ CLLocationManagerDelegate
         self.currentZoomFacto = self.cameraController.currentZoomFacto;
     }
     self.cancelBtn.hidden = NO;
+    self.cancelBtn.selected = YES;
+    self.changeCameraBtn.hidden = YES;
 }
 - (void)mediaCaptureFailedWithError:(NSError *)error {
     [self stopTimer];

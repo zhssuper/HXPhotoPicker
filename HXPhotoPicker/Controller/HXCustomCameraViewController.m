@@ -109,8 +109,8 @@ CLLocationManagerDelegate
     }
     if (self.manager.configuration.videoMaximumDuration > self.manager.configuration.videoMaximumSelectDuration) {
         self.manager.configuration.videoMaximumDuration = self.manager.configuration.videoMaximumSelectDuration;
-    }else if (self.manager.configuration.videoMaximumDuration < 3.f) {
-        self.manager.configuration.videoMaximumDuration = 4.f;
+    }else if (self.manager.configuration.videoMaximumDuration < 1.f) {
+        self.manager.configuration.videoMaximumDuration = 1.f;
     }
     self.previewView.themeColor = self.manager.configuration.cameraFocusBoxColor;
     [self.view addSubview:self.previewView];

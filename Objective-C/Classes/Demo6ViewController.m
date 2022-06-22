@@ -61,6 +61,8 @@
         _manager.configuration.photoEditConfigur.aspectRatio = HXPhotoEditAspectRatioType_1x1;
         _manager.configuration.photoEditConfigur.isRoundCliping = YES;
         _manager.configuration.videoCrop = NO;
+        _manager.configuration.videoMinimumDuration = 0;
+        _manager.configuration.videoMaximumDuration = 2;
     }
     return _manager;
 }

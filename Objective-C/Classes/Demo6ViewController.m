@@ -60,6 +60,7 @@
         _manager.configuration.photoEditConfigur.onlyCliping = YES;
         _manager.configuration.photoEditConfigur.aspectRatio = HXPhotoEditAspectRatioType_1x1;
         _manager.configuration.photoEditConfigur.isRoundCliping = YES;
+        _manager.configuration.videoCrop = NO;
     }
     return _manager;
 }

@@ -660,6 +660,9 @@ HXPhotoPreviewViewController;
 /// 是否开启3DTouch预览功能 默认 YES
 @property (assign, nonatomic) BOOL open3DTouchPreview;
 
+/// 是否开启视频录制后裁剪
+@property (assign, nonatomic) BOOL videoCrop;
+
 /// 下载iCloud上的资源
 /// 3.0.3 之后的版本已无效
 @property (assign, nonatomic) BOOL downloadICloudAsset DEPRECATED_MSG_ATTRIBUTE("Invalid attribute");

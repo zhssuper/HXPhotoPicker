@@ -36,6 +36,7 @@
     self.videoMinimumSelectDuration = 0.f;
     self.videoMaximumDuration = 60.f;
     self.videoMinimumDuration = 3.f;
+    self.videoCrop = YES;
     if ([UIScreen mainScreen].bounds.size.width != 320 && [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
         self.cameraCellShowPreview = YES;
     }

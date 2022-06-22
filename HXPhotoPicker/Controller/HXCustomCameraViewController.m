@@ -872,7 +872,9 @@ CLLocationManagerDelegate
         _bottomToolsView.hidden = YES;
         _bottomToolsView.alpha = 0;
         [_bottomToolsView addSubview:self.doneBtn];
-        [_bottomToolsView addSubview:self.videoCropBtn];
+        if (self.manager.configuration.videoCrop) {
+            [_bottomToolsView addSubview:self.videoCropBtn];
+        }
     }
     return _bottomToolsView;
 }

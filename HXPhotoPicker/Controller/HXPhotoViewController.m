@@ -1548,13 +1548,13 @@ HX_PhotoEditViewControllerDelegate
         previewVC.delegate = self;
         previewVC.modelArray = self.previewArray;
         previewVC.manager = self.manager;
-#if HasSDWebImage
-        cell.model.tempImage = vc.sdImageView.image;
-#elif HasYYKitOrWebImage
-        cell.model.tempImage = vc.animatedImageView.image;
-#else
+//#if HasSDWebImage
+//        cell.model.tempImage = vc.sdImageView.image;
+//#elif HasYYKitOrWebImage
+//        cell.model.tempImage = vc.animatedImageView.image;
+//#else
         cell.model.tempImage = vc.imageView.image;
-#endif
+//#endif
         NSInteger currentIndex = [self.previewArray indexOfObject:cell.model];
         previewVC.currentModelIndex = currentIndex;
         self.navigationController.delegate = previewVC;
@@ -1568,13 +1568,13 @@ HX_PhotoEditViewControllerDelegate
             previewVC.delegate = self;
             previewVC.modelArray = self.previewArray;
             previewVC.manager = self.manager;
-#if HasSDWebImage
-            cell.model.tempImage = vc.sdImageView.image;
-#elif HasYYKitOrWebImage
-            cell.model.tempImage = vc.animatedImageView.image;
-#else
+//#if HasSDWebImage
+//            cell.model.tempImage = vc.sdImageView.image;
+//#elif HasYYKitOrWebImage
+//            cell.model.tempImage = vc.animatedImageView.image;
+//#else
             cell.model.tempImage = vc.imageView.image;
-#endif
+//#endif
             NSInteger currentIndex = [self.previewArray indexOfObject:cell.model];
             previewVC.currentModelIndex = currentIndex;
             self.navigationController.delegate = previewVC;
@@ -1606,13 +1606,13 @@ HX_PhotoEditViewControllerDelegate
                 previewVC.delegate = self;
                 previewVC.modelArray = self.previewArray;
                 previewVC.manager = self.manager;
-#if HasSDWebImage
-                cell.model.tempImage = vc.sdImageView.image;
-#elif HasYYKitOrWebImage
-                cell.model.tempImage = vc.animatedImageView.image;
-#else
+//#if HasSDWebImage
+//                cell.model.tempImage = vc.sdImageView.image;
+//#elif HasYYKitOrWebImage
+//                cell.model.tempImage = vc.animatedImageView.image;
+//#else
                 cell.model.tempImage = vc.imageView.image;
-#endif
+//#endif
                 NSInteger currentIndex = [self.previewArray indexOfObject:cell.model];
                 previewVC.currentModelIndex = currentIndex;
                 self.navigationController.delegate = previewVC;
